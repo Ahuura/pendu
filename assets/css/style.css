@@ -1,0 +1,95 @@
+body {
+    background: url(https://www.allblacks.com/resources/themes/all-blacks/images/TAB_Toho.png), no-repeat, center;
+    color: white;
+    text-align: center;
+}
+
+h1,
+h3 {
+    text-align: center;
+    font-size: large;
+    color: white;
+    margin-top: 50px;
+}
+
+.lettre {
+    background: green;
+    color: green;
+    display: inline;
+}
+
+#icon {
+    height: 100px;
+    display: block;
+    margin: -10px auto;
+}
+
+.letttreClavier {
+    justify-content: center;
+    text-align: center;
+}
+.row{
+    margin-left: 300Px;
+    display: inline;
+}
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+.utiliser {
+    border: #6B7A8F;
+    background: #6B7A8F;
+}
+
+#container {
+    color: #EFEFEF;
+    font-size: 30px;
+    margin-left: 400px;
+    line-height: 40px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    color: #EFEFEF;
+    border: 1px solid black;
+    background: black;
+    width: 45px;
+    height: 45px;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+button:hover {
+    border: #6B7A8F;
+    background: #6B7A8F;
+    cursor: pointer;
+    color: #EFEFEF;
+    text-transform: uppercase;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+button:focus {
+    outline: 0;
+}
+
+
+.rejouer {
+    margin-top: 20px;
+    width: 190px;
+    height: 45px;
+    background: black;
+    border: 1px solid white;
+
+}
